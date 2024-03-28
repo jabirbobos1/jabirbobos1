@@ -1,0 +1,49 @@
+<style>
+  .dropdown {
+    display: inline-block;
+  }
+  .dropdown button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown .content {
+    display: none;
+    background-color: aqua;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+
+  .dropdown:hover .content{
+    display: block;
+  }
+  .dropdown:hover button{
+    background-color: rgb(0, 0, 60);
+
+  }
+  .dropdown a:hover{
+    background-color: rgb(0, 0, 90);
+  }
+  
+  
+
+</style>
+
+<div class="dropdown">
+  <button>food</button>
+  <div class="content">
+    <a href="">apple</a>
+    <a href="">orange</a>
+    <a href="">banana</a>
+  </div>
+</div>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nulla architecto qui in aperiam exercitationem hic, quaerat quae corrupti tempora, fuga excepturi velit animi sunt vitae perferendis quod laborum expedita.</p>
